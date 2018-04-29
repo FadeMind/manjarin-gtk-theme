@@ -1,6 +1,6 @@
 # Manjarin
 
-![s](https://cn.pling.com/img/4/f/c/1/b6ee49b6e5c173586a72cad66b90a9052d86.jpg)
+![s](https://cn.pling.com/img/d/7/a/4/ff397463fe8f384a2c69352e5254862a9ab9.jpg)
 
 
 This theme (which is a variation of my Telinkrin-theme) is made to blend with the Manjaro-Gnome-Edition. Nautilus and Tweak-tool have a new and modern look. And theming is persistent to the smallest detail. 
