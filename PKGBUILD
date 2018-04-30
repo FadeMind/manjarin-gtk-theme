@@ -9,14 +9,15 @@ arch=('any')
 url='https://github.com/FadeMind/manjarin-gtk-theme'
 license=('GPL')
 depends=('gtk2' 'gtk3' 'gtk-engine-murrine' 'gtk-engines')
-optdepends=('adapta-maia-theme: for adapta-nokto-maia shell theme'
-			'papirus-maia-icon-theme: default icons theme for this theme') 
 makedepends=('cmake')
+optdepends=('adapta-maia-theme: for adapta-nokto-maia shell theme'
+            'papirus-maia-icon-theme: default icons theme for this theme')
+options=('!strip')
 source=("${pkgname}.zip::${url}/archive/${_commit}.zip")
 sha256sums=('3f1478d4c7872164534b165559b04ccb4a7f3add9a8f1acd4096d695b411373a')
 
 pkgver() {
-	date +%Y%m%d
+    date +%Y%m%d
 }
 
 build() {
